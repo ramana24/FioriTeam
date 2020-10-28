@@ -5,20 +5,21 @@
 				<Page id="page" title="{i18n>title}">
 					<content>
 						<VBox class="sapUILargeMarginBottom">
-							<Text text="Welcome to UI5 programming in SAP Business Application Studio"/>
-							<Image src="https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png" width="140px" height="140px" id="image0"/>
+							<Text text="Welcome to UI5 programming in SAP Business Application Studio/ FullStack Webide "/>
+						<!--	<Image src="https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png" width="140px" height="140px" id="image0"/>-->
 					
-							<Text xmlns="sap.m" text="Lets Learn UI5 :Exercise to Create a Login page "/>
+						
 					
 						
 				
 						</VBox>
 						
 					<!--	// New panel-->
-						<Panel xmlns="sap.m" width="auto" expandable="true"  expanded="true" id="panel0" headerText="Welcome to Login Page !">
+						<Panel xmlns="sap.m" width="auto" expandable="true"  expanded="true" id="panel0" headerText="Welcome">
 								    
 								    <content>
 								        <!--<Text text="Panel Content" id="text2"/>-->
+								        <!--	<Text xmlns="sap.m" text="Lets Learn UI5 :Exercise to Create a Login page "/>-->
 								        	<Image src="https://ui5.sap.com/resources/sap/ui/documentation/sdk/images/logo_ui5.png" width="140px" height="140px" id="image0_1603333551904"/>
 								   
 					
@@ -28,7 +29,7 @@
 				
 						    <HBox xmlns="sap.m">
 								<Label class="sapUiTinyMarginTop" text="Username" tooltip="Use your e-mail id " required="true"/>
-								<Input id="mail" type="Email" width="10rem"/>
+								<Input class="sapUiTinyMarginBegin" id="mail" type="Email" width="10rem"/>
 						
 							</HBox>
 					
@@ -36,7 +37,7 @@
 						<VBox>
 							<HBox>
 								<Label class="sapUiTinyMarginTop" text="Password" required="true"/>
-								<Input id="pwd" width="10rem" type="Password" value="{CategoryName}"/>
+								<Input class="sapUiTinyMarginBegin" id="pwd" width="10rem" type="Password" value="{CategoryName}"/>
 						
 							</HBox>
 						</VBox>
@@ -44,9 +45,10 @@
 							<Button class="sapUiSizeCompact" text="Login" type="Default" press="onLoginPress"/>
 							<Button class="sapUiSizeCompact sapUiTinyMarginBegin" text="SignUp" press="onSignupPress" tooltip="New user registration" width="6rem" type="Accept"/>
 					
-						    <Link xmlns="sap.m" href="https://ui5.sap.com" text="Forgot Password?" id="idreset"/>
+						  
 				
 						</HBox>
+						  <Link  xmlns="sap.m" href="https://ui5.sap.com" text="Forgot Password?" id="idreset"/>
 						</VBox>
 						
 					 </content>

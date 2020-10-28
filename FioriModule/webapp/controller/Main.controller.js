@@ -21,7 +21,7 @@ sap.ui.define([
 		onAdd:function(){
 			var Add1= 1;
 			var Add2=2;
-		}
+		},
 		/**
 		 *@memberOf UI.FioriModule.controller.Main
 		 */
